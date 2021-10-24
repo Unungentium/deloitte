@@ -1,0 +1,16 @@
+{% extends 'bigc/base.html' %}
+{% block content %}
+
+<body>
+<form method="POST" action="">
+    {% csrf_token %}
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <button name="submit", type="submit", class="btn btn-success"> Submit</button>
+        </div>
+        <input name="text_input", type="text", class="form-control", placeholder= "please input text here">
+    </div>
+</form>
+</body>
+{{new_text}}
+{% endblock %}
