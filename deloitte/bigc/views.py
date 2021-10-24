@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import CompanyName as Company
 # Create your views here.
 
@@ -20,4 +20,5 @@ def index(response):
   
         else:
             return render(response, 'bigc/index.html',{})
+
     
