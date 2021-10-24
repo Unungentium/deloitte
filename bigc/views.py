@@ -11,7 +11,7 @@ def index(response):
                 new_list=[]
                 for word in text_list:
                     for company in companies:
-                        if word == company.name:
+                        if word.lower() == company.name.lower():
                             word = word+"©"
                     new_list.append(word)
 
