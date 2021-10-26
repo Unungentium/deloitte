@@ -3,7 +3,7 @@ Case made for Deloitte for the title of Junior Cloud Engineer
 
 
 # Creating additional companies
-The API was written with scaling in mind. To create additional companies, please run 
+The API was written with scaling in mind. To create additional companies, please run from inside of the root of the directory
 ```
 python manage.py create NameOfCompany
 ```
